@@ -3,7 +3,9 @@ import Llanding from '../components/Llanding'
 export default function About() {
 	return (
 		<Layout>
-			<Llanding />
+			<div className="main">
+				<Llanding />
+			</div>
 		</Layout>
 	)
 }
